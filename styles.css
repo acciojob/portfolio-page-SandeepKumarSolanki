@@ -133,5 +133,58 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 #projects li:hover {
-    transform: translateY(-10
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#projects li strong {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#projects li p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #skills ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #projects li {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #skills ul {
+        grid-template-columns: 1fr;
+    }
+
+    #projects li {
+        padding: 10px;
+    }
+}
