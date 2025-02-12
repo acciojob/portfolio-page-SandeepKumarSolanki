@@ -1,190 +1,189 @@
 
-/* Your CSS Code here. */
-
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+	margin : 0;
+	padding :0;
+	box-sizing : border-box;
 }
 
-/* Body Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f7f9;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
+body{
+	font-family : 'Arial' , 'sans-serif';
+	background-color : #f4f7f9;
+	color : #333;
+	line-height : 1.6;
+	padding : 20px;
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content : flex-start;
+	min-height : 100vh;
 }
 
-/* Header Styling */
-h1 {
-    font-size: 3rem;
-    color: #2c3e50;
-    margin-top: 20px;
-    font-weight: 600;
-    text-align: center;
+/* Header styling */
+h1{
+	font-size : 3rem;
+	color : #2c3e50;
+	margin-top : 20px;
+	font-weight : 600;
+	text-align : center;
 }
 
-a {
-    font-size: 1.1rem;
-    color: #3498db;
-    text-decoration: none;
-    margin: 20px 0;
-    display: block;
-    text-align: center;
-    font-weight: 500;
+a{
+	font-size : 1.1rem;
+	color : #3498db;
+	text-decoration : none;
+	margin : 20px 0;
+	display : block;
+	text-align : center;
+	font-weight : 550;
 }
 
-a:hover {
-    color: #2980b9;
+a : hover{
+		color : #2980b9;
 }
 
 /* Image Styling */
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+img{
+	width : 150px;
+	height : 150px;
+	border-radius : 50%;
+	marging-top : 30px;
+	box-shadow : 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Section Styling */
-section {
-    width: 100%;
-    max-width: 1000px;
-    margin-top: 40px;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+section{
+	width : 100%;
+	max-width : 1000px ;
+	margin-top : 40px;
+	background-color : #fff;
+	padding : 30px;
+	border-radius : 10px;
+	box-shadow : 0 6px 15px rgba(0 , 0 , 0 , 0.4);
 }
 
 /* Skill Section */
-#skills {
-    margin-bottom: 40px;
+#skills{
+	margin-bottom : 40px;
 }
 
-#skills h2 {
-    font-size: 2rem;
-    color: #3498db;
-    text-align: center;
-    margin-bottom: 10px;
+#skills h2{
+	font-size : 2rem;
+	color : #3498db;
+	text-align : center;
+	margin-bottom : 10px;
 }
 
-#skills ul {
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+#skills ul{
+	list-style-type : none;
+	padding : 0;
+	display : grid;
+	grid-template-columns : repeat(auto-fit , minmax(150px , 1fr));
+	gap : 20px;
 }
 
-#skills li {
-    background-color: #ecf0f1;
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
+#skills li{
+	background-color : #ecf0f1;
+	padding : 15px;
+	border-radius : 5px;
+	text-align : center;
+	font-size : 1.2 rem;
+	font-weight : 500;
+	transition : background-color 0.3s ease;
 }
 
-#skills li:hover {
-    background-color: #3498db;
-    color: #fff;
+#skills li:hover{
+	background-color : #3498db;
+	color : #fff;
 }
 
 /* Projects Section */
 #projects {
-    margin-top: 20px;
+	margin-top : 20px;
 }
 
-#projects h2 {
-    font-size: 2rem;
-    color: #3498db;
-    text-align: center;
-    margin-bottom: 10px;
+#projects h2{
+	font-size : 2rem;
+	color : #3498db;
+	text-align : center;
+	margin-bottom : 10px;
 }
 
-#projects p {
-    text-align: center;
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 30px;
+#projects p{
+	text-align : center;
+	font-size : 1.1rem;
+	color : #555;
+	margin-bottom : 30px;
 }
 
 #projects ul {
-    list-style-type: none;
-    padding: 0;
+	list-style-type : none;
+	padding : 0;
 }
 
-#projects li {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+#projects li{
+	background-color : #fff;
+	padding : 20px;
+	margin-bottom : 20px;
+	border-radius : 10px;
+	box-shadow : 0 4px 8px rgba(0 , 0 , 0 , 0.1);
+	transition : transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-#projects li:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+#projects li:hover{
+	transform : translateY(-10px);
+	box-shadow : 0 8px 16px rgba(0 , 0 , 0 , 0.2);
 }
 
-#projects li strong {
-    font-size: 1.3rem;
-    color: #2c3e50;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 10px;
+#projects li strong{
+	font-size : 1.3rem;
+	color : #2c3e50;
+	font-weight : 600;
+	display : block;
+	margin-bottom : 10px;
 }
 
-#projects li p {
-    font-size: 1rem;
-    color: #7f8c8d;
+#projects li p{
+	font-size : 1rem;
+	color : #7f8c8d;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
+@media(max-width : 768px){
+	body{
+		padding : 10px;
+	}
 
-    section {
-        padding: 20px;
-    }
+	section {
+		padding : 20px;
+	}
 
-    h1 {
-        font-size: 2.5rem;
-    }
+	h1{
+		font-size : 2.5rem;
+	}
 
-    #skills ul {
-        grid-template-columns: 1fr 1fr;
-    }
+	#skills ul{
+		grid-template-columns : 1fr 1fr;
+	}
 
-    #projects li {
-        padding: 15px;
-    }
+	#projects li{
+		padding : 15px;
+	}
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2rem;
-    }
+@media (max-width : 480px){
+	h1{
+		font-size : 2rem;
+	}
 
-    #skills ul {
-        grid-template-columns: 1fr;
-    }
+	#skills ul{
+		grid-template-columns : 1fr;
+	}
 
-    #projects li {
-        padding: 10px;
-    }
+	#projects li{
+		padding : 10px;
+	}
 }
+
+
+
+
